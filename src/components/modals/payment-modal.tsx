@@ -66,7 +66,7 @@ const PaymentModal = ({
             animate={{ scale: 1, opacity: 1 }}
             exit={{ scale: 0.95, opacity: 0 }}
             className="relative w-full max-w-md glass rounded-2xl p-6 border border-card-border shadow-glow-primary"
-            onClick={(e:Event) => e.stopPropagation()}
+            onClick={(e:any) => e.stopPropagation()}
           >
             {/* Close Button */}
             <button
